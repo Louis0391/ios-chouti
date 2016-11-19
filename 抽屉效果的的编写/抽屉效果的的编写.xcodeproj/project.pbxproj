@@ -80,7 +80,6 @@
 				0D5181561BF2E95D00789A33 /* DragViewController.m */,
 				63C1BAD61DE0AF8E009E1074 /* wangwu.h */,
 				63C1BAD71DE0AF8E009E1074 /* wangwu.m */,
-=======
 				63C1BAD31DE0AF75009E1074 /* lisi.h */,
 				63C1BAD41DE0AF75009E1074 /* lisi.m */,
 			);
