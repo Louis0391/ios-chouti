@@ -13,7 +13,8 @@
 		0D5181491BF2E81000789A33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5181471BF2E81000789A33 /* Main.storyboard */; };
 		0D51814B1BF2E81000789A33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D51814A1BF2E81000789A33 /* Assets.xcassets */; };
 		0D51814E1BF2E81000789A33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D51814C1BF2E81000789A33 /* LaunchScreen.storyboard */; };
-		0D5181571BF2E95D00789A33 /* DragViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5181561BF2E95D00789A33 /* DragViewController.m */; settings = {ASSET_TAGS = (); }; };
+		0D5181571BF2E95D00789A33 /* DragViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5181561BF2E95D00789A33 /* DragViewController.m */; };
+		63C1BAD81DE0AF8E009E1074 /* wangwu.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C1BAD71DE0AF8E009E1074 /* wangwu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		0D51814F1BF2E81000789A33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D5181551BF2E95D00789A33 /* DragViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragViewController.h; sourceTree = "<group>"; };
 		0D5181561BF2E95D00789A33 /* DragViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragViewController.m; sourceTree = "<group>"; };
+		63C1BAD61DE0AF8E009E1074 /* wangwu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wangwu.h; sourceTree = "<group>"; };
+		63C1BAD71DE0AF8E009E1074 /* wangwu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wangwu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				0D51813E1BF2E81000789A33 /* Supporting Files */,
 				0D5181551BF2E95D00789A33 /* DragViewController.h */,
 				0D5181561BF2E95D00789A33 /* DragViewController.m */,
+				63C1BAD61DE0AF8E009E1074 /* wangwu.h */,
+				63C1BAD71DE0AF8E009E1074 /* wangwu.m */,
 			);
 			path = "抽屉效果的的编写";
 			sourceTree = "<group>";
@@ -155,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C1BAD81DE0AF8E009E1074 /* wangwu.m in Sources */,
 				0D5181571BF2E95D00789A33 /* DragViewController.m in Sources */,
 				0D5181461BF2E81000789A33 /* ViewController.m in Sources */,
 				0D5181431BF2E81000789A33 /* AppDelegate.m in Sources */,
@@ -305,6 +311,7 @@
 				0D5181541BF2E81000789A33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
